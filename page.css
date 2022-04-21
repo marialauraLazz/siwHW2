@@ -1,0 +1,114 @@
+body {
+    background-color: aliceblue;
+    font-family:  "Lucida Console", "Courier New", monospace; 
+    font-size: 1em;
+    margin-left: 2em;
+    margin-right: 2.5em;
+    color: black;
+    }
+
+h1 {
+    font-size: 2em; 
+    font-weight: bold;
+    margin:0;
+    }
+
+h2  {
+    border:0;
+    padding:0;
+    margin:0;
+    }
+
+h3 {
+    font-size: 1em;
+    padding:0;
+    margin:0;
+    }
+
+
+a:link {
+    text-decoration: none; 
+    color: midnightblue;
+    font-weight: bold;
+    }
+
+a:visited {
+    text-decoration: none; 
+    color: 	darkslategray;
+    font-weight: bold;
+    }
+
+a:hover {
+    text-decoration: underline; 
+    color: midnightblue; 
+    background-color: lightyellow;
+    color:black;
+    font-weight: bold;
+    }
+
+span.linkheader {
+    padding: 0.1em;
+    color: white;
+    border-right:none;
+    border-top:none;
+    border-bottom:none;
+    border-color:white;
+    }
+
+ul {
+    padding-bottom:0.5em;
+    padding-top:0;
+    margin-bottom:0;
+    margin-top:0;
+    }
+
+div.col {
+    margin-bottom: 0.5em;
+    padding:0;
+    border-bottom:solid;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-width:1px;
+    border-color: navy;
+    clear:both;
+    }
+
+div.home{
+    width:25%;
+    margin-top:0;
+    margin-left:0;
+    margin-right:0;
+    margin:0;
+    padding:0;
+    float:left;
+    }
+
+div.homeBody{
+    width:70%;
+    background-color:lavender;
+    margin-top:0;
+    margin-left:0;
+    margin-right:0;
+    margin-bottom: 0.3em;
+    padding-left:1em;
+    padding-right:1em;
+    padding-top:0;
+    border:solid;
+    border-width:1px;
+    border-color: navy;
+    float:right;
+    }
+
+div.header {
+    padding-left:0.5em;
+    color:white;
+    background-color:indigo;
+    font-size:1.1em;	
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: 0.1em;
+    border: solid;
+    border-width:0.1em;
+    border-color:black;
+    }
